@@ -1,31 +1,31 @@
-# AI Automation Demo
+# AI Automation Challenge – AgentGenius.ai
 
 ## Overview
-This project is a simple AI automation script built using Python.
-It connects to an external API, processes the response, and automates output generation.
+This is my Python code integrated with AI API for AI Automation Challenge - AgentGenius.ai
 
-## Problem
-Manually processing structured output from raw input is time-consuming.
+## What it does
+- Takes input from the user  
+- Sends it to an AI API  
+- Gets a response and shows it in a readable format
 
-## Solution
-The script:
-- Takes user input
-- Sends a request to an AI API
-- Processes the JSON response
-- Outputs formatted results
-
-## Tech Stack
-- Python
-- requests
-- dotenv
-- API integration
+## Tech Used
+- Python  
+- requests  
+- dotenv  
+- OpenAI API  
 
 ## Challenges
-- Handling API errors
-- Parsing JSON responses
-- Managing environment variables securely
+- Figuring out API requests  
+- Parsing responses  
+- Using environment variables  
 
-## Future Improvements
-- Add better error handling
-- Convert to web API
-- Add logging
+## Future Plans
+- Handle errors better  
+- Make it easier to use for different inputs  
+- Possibly turn it into a small app  
+
+## How to run
+1. Clone the repo  
+2. Install dependencies (`pip install -r requirements.txt`)  
+3. Add your API key in a `.env` file  
+4. Run `python ai-automation-v1.py`
